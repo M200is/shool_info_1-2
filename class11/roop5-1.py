@@ -1,6 +1,3 @@
-from re import I
-
-
 n = int(input("정수 입력: "))
 c = 1
 
