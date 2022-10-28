@@ -1,9 +1,8 @@
 n = int(input("정수 입력: "))
-c = 1
+c = 0
 
-while c <= n:
+while c < n:
+    c += 1
     if c % 3 == 0:
-        c += 1
         continue
     print(c, end=' ')
-    c += 1
